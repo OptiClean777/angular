@@ -1,0 +1,8 @@
+
+<div *ngFor ="let character of characters">
+   
+    <img [src]="character.img">
+    
+    <p [ngStyle]="{color:getStatus(character)}">{{character.name}}</p>
+
+</div>
